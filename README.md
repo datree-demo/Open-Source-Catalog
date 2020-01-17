@@ -1,5 +1,6 @@
 # Open-Source-Catalog
 
+[![Datree](https://s3.amazonaws.com/catalog.static.datree.io/datree-badge-20px.svg)](https://datree.io/?src=badge)  
 [![Build Status](https://travis-ci.org/nasa/Open-Source-Catalog.svg?branch=master)](https://travis-ci.org/nasa/Open-Source-Catalog)
 
 ## About
