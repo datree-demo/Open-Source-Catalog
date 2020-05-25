@@ -1,0 +1,15 @@
+pre_build:
+    my_route53_hook:
+        path: 'runway.cfngin.hooks.route53.create_domain'
+        required: true
+        enabled: true
+        args:
+            domain: mydomain.com
+stacks:
+    vpc-example:
+        class_path: cfngin_blueprints.vpc.VPC
+        locked: false
+    bastion-example:
+        class_path: cfngin_blueprints.bastion.Bastion
+        locked: false
+        enabled: true
